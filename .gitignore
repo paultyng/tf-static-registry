@@ -1,0 +1,4 @@
+crash.log
+*.pem
+testdata/testgenerate/public
+.terraform
