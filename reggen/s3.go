@@ -1,0 +1,3 @@
+package reggen
+
+// TODO: S3 strategy...
