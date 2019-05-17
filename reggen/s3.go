@@ -1,3 +1,6 @@
 package reggen
 
-// TODO: S3 strategy...
+type s3Generator struct {
+	fileSystemGenerator
+}
+

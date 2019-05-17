@@ -1,0 +1,90 @@
+{
+    "modules": [
+      {
+        "source": "justincampbell/test/null",
+        "versions": [
+          {
+            "version": "2.0.2",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "2.0.2-rc2",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "2.0.2-rc1",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "2.0.1",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "2.0.1-rc1",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "2.0.0",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "0.0.1",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "0.0.4",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "0.0.3",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          },
+          {
+            "version": "0.0.2",
+            "root": {
+              "providers": [],
+              "dependencies": []
+            },
+            "submodules": []
+          }
+        ]
+      }
+    ]
+}
+  
