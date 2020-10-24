@@ -1,0 +1,23 @@
+{
+    "protocols": [
+        "5.0"
+    ],
+    "os": "windows",
+    "arch": "amd64",
+    "filename": "terraform-provider-unifi_0.17.0_windows_amd64.zip",
+    "download_url": "https://github.com/paultyng/terraform-provider-unifi/releases/download/v0.17.0/terraform-provider-unifi_0.17.0_windows_amd64.zip",
+    "shasums_url": "https://github.com/paultyng/terraform-provider-unifi/releases/download/v0.17.0/terraform-provider-unifi_0.17.0_SHA256SUMS",
+    "shasums_signature_url": "https://github.com/paultyng/terraform-provider-unifi/releases/download/v0.17.0/terraform-provider-unifi_0.17.0_SHA256SUMS.sig",
+    "shasum": "0b9c553cb637063d425169f17371f60308ff4b76a4aba7758c21cad1f7ed7e06",
+    "signing_keys": {
+        "gpg_public_keys": [
+            {
+                "key_id": "5F8177E3F8A2A2B8",
+                "ascii_armor": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\n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\n=4DhB\n-----END PGP PUBLIC KEY BLOCK-----",
+                "trust_signature": "",
+                "source": "manual",
+                "source_url": ""
+            }
+        ]
+    }
+}

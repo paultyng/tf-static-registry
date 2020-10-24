@@ -1,0 +1,15 @@
+[build]
+  publish = "dist"
+  # command = "go run main.go --provider netlify"
+
+# redirect the versions list request
+[[redirects]]
+  from  = "/providers/v1/:namespace/:name/versions"
+  to = "/providers/v1/:namespace/:name/versions.json"
+  status = 200
+
+# redirect the individual version requests
+[[redirects]]
+  from = "/providers/v1/:namespace/:name/:version/download/:os/:arch"
+  to = "/providers/v1/:namespace/:name/:version-:os-:arch.json"
+  status = 200

@@ -1,4 +1,2 @@
-crash.log
-*.pem
-testdata/testgenerate/public
-.terraform
+# Local Netlify folder
+.netlify
