@@ -1,6 +1,8 @@
 [build]
   publish = "dist"
-  # command = "go run main.go --provider netlify"
+
+  # TODO: set this to your copy of tfstaticregistry
+  command = "tfstaticregistry"
 
 # redirect the versions list request
 [[redirects]]
