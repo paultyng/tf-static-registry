@@ -1,0 +1,6 @@
+
+# redirect the individual version requests
+/providers/v1/:namespace/:name/:version/download/:os/:arch	/providers/v1/:namespace/:name/:version-:os-:arch.json	200
+
+# redirect the versions list request
+/providers/v1/:namespace/:name/versions	/providers/v1/:namespace/:name/versions.json	200

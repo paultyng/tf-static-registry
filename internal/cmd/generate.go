@@ -17,8 +17,11 @@ import (
 type generateCmd struct {
 	commonCmd
 
+	// required flags
 	serverType string
-	outputDir  string
+
+	// required for locally built static sites, like netlify
+	outputDir string
 
 	httpClient   *http.Client
 	githubClient *githubv4.Client
@@ -58,11 +61,6 @@ func (cmd *generateCmd) runInternal() error {
 	if err != nil {
 		return err
 	}
-	abs, err := filepath.Abs(cmd.outputDir)
-	cmd.outputDir, err = filepath.Rel(cwd, abs)
-	if err != nil {
-		return err
-	}
 
 	var conf config
 	err = hclsimple.DecodeFile("registry.hcl", nil, &conf)
@@ -77,7 +75,28 @@ func (cmd *generateCmd) runInternal() error {
 	if cmd.serverType == "" {
 		if _, err := os.Stat(filepath.Join(cmd.outputDir, ".netlify")); err == nil {
 			cmd.serverType = "netlify"
+		} else if _, err := os.Stat(filepath.Join(cwd, ".netlify")); err == nil {
+			cmd.serverType = "netlify"
 		}
+	}
+
+	if cmd.serverType == "" {
+		return fmt.Errorf("a server type is required")
+	}
+
+	// server type specific defaults
+	switch cmd.serverType {
+	case "netlify":
+		// TODO: read this out of the netlify.toml file?
+		if cmd.outputDir == "" {
+			cmd.outputDir = "dist"
+		}
+	}
+
+	abs, err := filepath.Abs(cmd.outputDir)
+	cmd.outputDir, err = filepath.Rel(cwd, abs)
+	if err != nil {
+		return err
 	}
 
 	cmd.httpClient = cleanhttp.DefaultClient()

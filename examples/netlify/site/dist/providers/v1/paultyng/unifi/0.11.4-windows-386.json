@@ -1,0 +1,23 @@
+{
+	"protocols": [
+		"5.0"
+	],
+	"os": "windows",
+	"arch": "386",
+	"filename": "terraform-provider-unifi_0.11.4_windows_386.zip",
+	"download_url": "https://github.com/paultyng/terraform-provider-unifi/releases/download/v0.11.4/terraform-provider-unifi_0.11.4_windows_386.zip",
+	"shasums_url": "https://github.com/paultyng/terraform-provider-unifi/releases/download/v0.11.4/terraform-provider-unifi_0.11.4_SHA256SUMS",
+	"shasums_signature_url": "https://github.com/paultyng/terraform-provider-unifi/releases/download/v0.11.4/terraform-provider-unifi_0.11.4_SHA256SUMS.sig",
+	"shasum": "b572ac03fdb8e6caaf198aca068a54568a7a2d555c3a94f644400c5a7bdf0fb3",
+	"signing_keys": {
+		"gpg_public_keys": [
+			{
+				"key_id": "5F8177E3F8A2A2B8",
+				"ascii_armor": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\n\r\nmQINBF7Bbq4BEACnaklIhVTF/aL82HzFkkIY+avuRsYXoM5mbFm7WvU5ARVGgJDW\r\nSCpW75L6SbkolmH8KEZQQnwckUDyjKAffDksmN9365t4ob6s8Uos6mvNPZvWfdnZ\r\nOCRgOHjEejcweyPehFqNFy2yKqKHip51gNlhT4MF2rlEZz9v4SjPm4V/M6dBIVPw\r\nmEgOn+cizJw9eOrIHz//Sg+wFUR1m9hhb2/U1KFJz2l8fjHOGjV3WewNTMkgVEjV\r\nEJXmUExDmkws1GZttyc47NU/5BOfsANFbGZ9RahxK1E6BRR35lCt9aBFkwJYqfWB\r\nnkQRnrvC/j1tvdzYObGGnz1J+DK+TFJiJAgqggv7bmNzWlnhC6nIqJW1KeTmqsJE\r\nJWgL+xxGce4HnG7DJmy4aQ09oFd491tLmE7mKtSb68XYa+8YtGN3/wFUBL07zWot\r\neGqQGPKEoSlJKNWa++wBnaXYJf67tiwT7LybOWTpt8HUkAZg1XqQVzlxmdSkdwFJ\r\n+4jgsfRzVpYaprceuD2vC4ih2wRuviTQ4AaXmTZ5sq820piU3cHYf7bUuD6/Ea+W\r\n7klvU6V2Wfn20hHQZv7pf/LZFz23wKQ+RBcAECONEOtz1N2ud/mrxPWAHuNnLLYB\r\noKnk4DDJTIR1efTaqraSnApLHSQkNmJIolQseIwsWF0fWplm9FDh31xKEwARAQAB\r\ntE9QYXVsIFR5bmcgKGh0dHBzOi8vZ2l0aHViLmNvbS9wYXVsdHluZyBUZXJyYWZv\r\ncm0gUHJvdmlkZXJzKSA8cGF1bEBwYXVsdHluZy5uZXQ+iQJOBBMBCgA4FiEEDaTr\r\nyNfL7EPQ/JJ/X4F34/iiorgFAl7Bbq4CGwMFCwkIBwIGFQoJCAsCBBYCAwECHgEC\r\nF4AACgkQX4F34/iioriPbA//Z0zvycYQoRFrnZ+Mr7c7U6H0jVWv54/lewO82UZz\r\nL2NxnPHjuOTXjwNeaN2OXaLrmustA2cKdv8Ow19O38W/mPPgFeHfuFZ0H6UAxTBM\r\nZJslaRvIxqtatIVvVlzyUrNvCxc5cQEqNvOEC7XK6HgqXXAaIviw6zjzlmKKjPaP\r\nqLl307eEVux59iB0vzRXg8W2jb1HIDRyRufyLS+rvUr3/aNxNDC6U1fcOb0OdcWW\r\n3LAXm057JblOUQy78uJ2JlWvToN9T0qlFCqgh5GpRLIGYunv8bZuPMHeq0XCckK8\r\nO+qdHX/0xSqoLnFlW/5bGG1Co2s84FlmJs8qj5jDr67Mt9pFJdHUIQhG/wMMSnRr\r\nTtlGGqOjKeTXPJ9kiuiIDaDO0CHRvGGTfcRYXEofj0Pgmo5QtA50cv3K0yVx6S08\r\npK7UjwzSkJSBZdw66yps7SBdD88Tb2lVNYdMRKmIR6JIMMrdyKYG1ks8HhP0qKLv\r\nfvbm364Svztu1GvuFf78uzGdNbDZ7OvkKrekVSZUN73rJr6HGkKCQaYFG9fzmzoB\r\nyh5eSTrA+BG43mi7fJSuOiHetTAcoDxss27oU7mWgH5uHyWxQvcevhNTGXsgtgEo\r\na1nCmwiiXA0FpNRs+8yDoOmlNSxmQUk80NbXLhHt4ZpZddii/LM9oVZCgUmfG89U\r\nqOO5Ag0EXsFurgEQAKimhcuCyxCK0INznOpkIwlPz44Yy99gaIL+hexeMy7hes3N\r\naAWauASbBIg7cR9/q/Y0Y1r0WqUo7nLU22432Ita4mFhPvGkfr0kWUl6HpCFnOSg\r\n340FnOVRhZJA5PPzSOBel00zx737MZBpdobocpeyleC6m7WxCTpky9KB+CKkZUR6\r\nJFHK/o0khGJtI8a79PmJY9setldom/AJd5sSIZKRjtPYrlLvAwwkoKTbh80z8uM7\r\nt2N/EkiCV4VRvMMdcjFOiG767tzTdbsUzzIkUKpOQifbNPWQze+qUxcw20vVSXvc\r\nsvV6wQQs5S/LHjYn7+3YBJilT3fdGCBw7hM8BZwl/TsR3flrEZjiQ03uhrvPeSKe\r\n0zz9K6jnTdJuCn7z/1BsE2pDRCQvBBUO7jWvnaJxyVTejcK1p+jCHlNEYPRcAi+E\r\nxg0Z9B0QHci/Am0G537N/j5eea1fygA7pMISoEVFsJSC8PwY+PBdcyngkr1IK8ab\r\n1ZOK+LXHcBbiB3RlxzckviqadkS1g1amfpKmnjtDBT+YHHYzYAxlVL/Ad3VbAvro\r\nB/T7Lo78EO4Ej4dwwmXm3prR42im9eVkHhczvWDB8ytD886A3w/H2JEFUWHbl0sf\r\nzxUxItRCUzNfrZzcSNiRTvRYgcAHo5q/ekATVaePkhxA2n+V9vcsu+q8oXjTABEB\r\nAAGJAjYEGAEKACAWIQQNpOvI18vsQ9D8kn9fgXfj+KKiuAUCXsFurgIbDAAKCRBf\r\ngXfj+KKiuDJwEACZRhiREzklbqGae6jsaeuyoO9eYUiFkoQ1kaGOex69IjOBG7sM\r\nF2qaxQucobyrd+HHa8m+3qrAwZQia7d8dhb1gRa96oNQzCpTYYbOkrVsFVLGKu3B\r\nE9vV2canEfqID+/zKuzRCKx40gruV3KJDRnDBRveNX4fLllFACVOLO4Fy+cZEEcy\r\nWze29J+X2FdVteLkUkrGLP4ug7PtzdhIbKYhoVBnZH1fjC1a5JjAj+B5wJeJnQUS\r\nPwW8bF4wDg8J4Fdf6IekfihTIhnFwkCwPHJtrLcLlF7HQviZInQKR3bUYA+rar3V\r\n1bLRO6i7Q/z8nU59wzGmRTqn0h/XeaANZREQ1YE60xeKeUPkNcBvaAp4WwG7UkkF\r\nlHFja3m/PShoShNtfYUrlUI2f0reIV1qrGDU8GAo5GGk/9xCnSCCLXvA+nd9GMHI\r\nsDJHXJORYDizb+Y3jW5hknveBTkBNSBLm49siaxW04zWIoaSUmZptiyHGl8qKDr9\r\nDFgWMvc+dY6NVKsqG0MCdJc/ItmF74YkkA49hWARcTlp9zO4rz/9Ki6vGYfXC8j7\r\n/SROhoyjxyI3925rGYmwNYj+IeB57kMrfl0tpQcIDeasvHNzsBVbxHVnlLQr66E9\r\n0oWFruSDUkvTjXeBD1LYsvJ8HYK6CRLTI7EkYxpdOYSeOUnxEr35mivqcA==\r\n=4DhB\r\n-----END PGP PUBLIC KEY BLOCK-----",
+				"trust_signature": "",
+				"source": "",
+				"source_url": ""
+			}
+		]
+	}
+}
