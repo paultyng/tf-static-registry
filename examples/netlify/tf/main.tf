@@ -4,10 +4,10 @@ terraform {
       source = "tf-static-registry-example.netlify.app/paultyng/unifi"
       version = "0.16.0"
     }
-    new_null = {
+    new-null = {
       source = "tf-static-registry-example.netlify.app/hashicorp/null"
     }
-    old_null = {
+    old-null = {
       source = "hashicorp/null"
     }
   }

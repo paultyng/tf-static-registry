@@ -124,10 +124,13 @@ func (cmd *generateCmd) runInternal() error {
 		case p.GitHub != nil:
 			err = cmd.collectGitHubProvider(ctx, p, r)
 			if err != nil {
-				return fmt.Errorf("unable to collection information for %q: %w", p, err)
+				return fmt.Errorf("unable to collect GitHub information for %q: %w", p, err)
 			}
 		case p.Registry != nil:
-			return fmt.Errorf("registry source is not yet supported for %q", p)
+			err = cmd.collectRegistryProvider(ctx, p, r)
+			if err != nil {
+				return fmt.Errorf("unable to collect registry information for %q: %w", p, err)
+			}
 		case p.Manual != nil:
 			return fmt.Errorf("manual source is not yet supported for %q", p)
 		}
