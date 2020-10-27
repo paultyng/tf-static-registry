@@ -1,2 +1,5 @@
+.envrc
+.vscode/launch.json
+
 # Local Netlify folder
 .netlify
