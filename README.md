@@ -23,6 +23,8 @@ provider "hashicorp" "null" {
 
 Then run the tool using `tfstaticregistry` and it will fetch the specified providers and build a static site.
 
+See the [examples/netlify/site] directory for an example configuration and Netlify setup, and the [examples/netlify/tf] directory for a test Terraform configuration.
+
 ## TODO
 
 * Support provider renaming, currently the source name and destination names need to match or files and paths get out of sync
